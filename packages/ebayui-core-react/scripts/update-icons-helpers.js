@@ -149,7 +149,7 @@ function styleToReact(styleStr) {
         .split(";")
         .filter(Boolean)
         .map((style) => {
-            [key, value] = style.split(":");
+            const [key, value] = style.split(":");
             return `${camelCased(key.trim())}: '${value.trim()}'`;
         })
         .join(", ");

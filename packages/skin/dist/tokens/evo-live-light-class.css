@@ -27,6 +27,7 @@
         --color-border-accent: var(--color-kiwi-400);
         --color-border-attention: var(--color-red-400);
         --color-border-disabled: var(--color-neutral-700);
+        --color-border-inverse: var(--color-neutral-900);
         --color-border-medium: var(--color-neutral-600);
         --color-border-on-accent: var(--color-kiwi-800);
         --color-border-on-attention: var(--color-neutral-800);

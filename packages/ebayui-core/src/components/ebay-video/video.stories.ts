@@ -10,7 +10,7 @@ import compactLayoutRaw from "./examples/compact-layout.marko?raw";
 import autoPlayComponent from "./examples/auto-play-viewport.marko";
 import autoPlayRaw from "./examples/auto-play-viewport.marko?raw";
 
-const Template: Story<Input> = (args) => ({
+const Template: Story<Input> = (args: Input) => ({
     input: {
         ...args,
         renderBody: (args.renderBody
