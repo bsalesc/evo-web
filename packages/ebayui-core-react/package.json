@@ -31,7 +31,7 @@
         "copy": "copyfiles package.json README.md dist; npm run copy:rest",
         "copy:rest": "copyfiles -u 1 'src/**/*.md' dist",
         "coverage": "npm run clean && npm run test -- --coverage --ci",
-        "deploy": "storybook build -o ./_site/$(git branch --show-current)",
+        "deploy": "NODE_OPTIONS=--max-old-space-size=8192 storybook build -o ./_site/$(git branch --show-current)",
         "format": "eslint . --fix 'src/**/*.{ts,tsx}' && prettier . --write --log-level=warn",
         "lint": "eslint . --ext .ts,.tsx && prettier . --check --log-level=warn",
         "release": "npm run build",
