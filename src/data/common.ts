@@ -45,5 +45,6 @@ export const urls = {
   reactComponents: `${basePath}evo-react-components`,
   markoStorybook: `${basePath}ebayui-core`,
   reactStorybook: `${basePath}ebayui-core-react/main`,
+  skinStorybook: `${basePath}skin-storybook/storybook`,
   guideExamples: `${basePath}guide-examples`,
 };

@@ -13,9 +13,6 @@ import {breadcrumbs} from "./style.module.scss";
     <ul>
       <for|breadcrumb, index| of=url>
         <li>
-          <log=breadcrumb>
-          <log=index>
-
           <if=index !== url.length - 1>
             <const/href=(url.slice(1, index + 1).join("/"))>
             <const/name=(!!href ? breadcrumb : "Evo Web")>
