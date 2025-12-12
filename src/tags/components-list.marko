@@ -1,15 +1,12 @@
 import { components, getMetadataFromUrl } from "../data";
-<const/{name}=getMetadataFromUrl($global.url.pathname)>
-<style>
-  .nav-link[aria-current] {
-    font-weight: bold;
-  }
-</style>
-
+<const/{ name }=getMetadataFromUrl($global.url.pathname)>
 <for|_key, comp| in=components>
   <if=comp.properName>
     <li>
-      <a href=(comp.componentUrls?.overview) class="nav-link" aria-current=(name === comp.name ? "page" : null)>
+      <a
+        href=(comp.componentUrls?.overview)
+        class="nav-link"
+        aria-current=name === comp.name && "page">
         ${comp.properName}
       </a>
     </li>

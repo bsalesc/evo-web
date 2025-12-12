@@ -106,6 +106,7 @@ export function getMetadataFromUrl(url: string) {
   const currentIndex = componentKeys.indexOf(componentName);
   const prevKey = componentKeys[currentIndex - 1];
   const nextKey = componentKeys[currentIndex + 1];
+  console.log(currentTab, componentName)
 
   return {
     ...componentData,

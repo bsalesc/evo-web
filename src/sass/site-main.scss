@@ -111,10 +111,13 @@ main {
 }
 
 .demo {
-    border: 1px dashed var(--color-neutral-300);
+  border: 1px dashed var(--color-neutral-300);
 }
 
 .demo__inner {
   margin: var(--spacing-100);
+}
 
+.nav-link[aria-current] {
+  font-weight: var(--font-weight-bold);
 }
