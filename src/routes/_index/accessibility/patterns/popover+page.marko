@@ -1,3 +1,4 @@
+import { urls } from "../../../../data";
 <div class="a11y-pattern-content">
   <h1>Popover</h1>
   <h2>Introduction</h2>
@@ -11,37 +12,37 @@
   <p>Popover forms the basis of the following composite patterns:</p>
   <ul>
     <li>
-      <a href="components/combobox">
+      <a href=`${urls.components}/combobox`>
         Comboxbox
       </a>
     </li>
     <li>
-      <a href="accessibility/patterns/fake-menu-button">
+      <a href=`${urls.accessibility}/patterns/fake-menu-button`>
         Fake Menu Button
       </a>
     </li>
     <li>
-      <a href="components/infotip">
+      <a href=`${urls.components}/infotip`>
         Infotip Button
       </a>
     </li>
     <li>
-      <a href="components/listbox-button">
+      <a href=`${urls.components}/listbox-button`>
         Listbox Button
       </a>
     </li>
     <li>
-      <a href="components/menu-button">
+      <a href=`${urls.components}/menu-button`>
         Menu Button
       </a>
     </li>
     <li>
-      <a href="components/tooltip">
+      <a href=`${urls.components}/tooltip`>
         Tooltip
       </a>
     </li>
     <li>
-      <a href="components/tourtip">
+      <a href=`${urls.components}/tourtip`>
         Tourtip
       </a>
     </li>
@@ -57,7 +58,7 @@
     The overlay can hold any kind of content, but for an overlay that demands
     user acknowledgement or input, or with additional rich interactions,
     consider using a
-    <a href="components/lightbox-dialog">
+    <a href=`${urls.components}/lightbox-dialog`>
       dialog
     </a>
     instead.
@@ -95,7 +96,7 @@
     <strong>must</strong>
     be non-modal (i.e. must not trap keyboard focus or mask page
     background). For modal behaviour please consider the
-    <a href="components/lightbox-dialog">
+    <a href=`${urls.components}/lightbox-dialog`>
       dialog
     </a>
     pattern instead.
@@ -109,7 +110,7 @@
   <p>
     <em>If</em>
     system-activated (e.g. a
-    <a href="components/tourtip">
+    <a href=`${urls.components}/tourtip`>
       Tourtip
     </a>
     ), overlay
@@ -207,7 +208,7 @@
   <p>
     Hover behaviour can be problematic or impossible for touch. You may wish to
     consider using the
-    <a href="components/infotip">
+    <a href=`${urls.components}/infotip`>
       Infotip
     </a>
     pattern instead.

@@ -1,4 +1,5 @@
 import "../../../../sass/accessibility.scss";
+import { urls } from "../../../../data";
 <div class="a11y-pattern-content">
   <h1>Tooltip Accessibility</h1>
   <h2>Best Practices</h2>
@@ -6,7 +7,7 @@ import "../../../../sass/accessibility.scss";
     First of all, the HTML title attribute is
     <strong>not</strong>
     an accessible tooltip. Read the
-    <a href="accessibility/anti-patterns/title-tooltip">
+    <a href=`${urls.accessibility}/anti-patterns/title-tooltip`>
       title tooltip anti-pattern
     </a>
     for more details.
@@ -17,7 +18,7 @@ import "../../../../sass/accessibility.scss";
     describe the host element only. Do not create a host element (e.g. a
     button) purely for the sake of displaying an overlay. If that is your wish,
     consider the
-    <a href="components/infotip">
+    <a href=`${urls.components}/infotip`>
       Infotip
     </a>
     pattern instead.
@@ -26,7 +27,7 @@ import "../../../../sass/accessibility.scss";
     Tooltip
     <strong>must not</strong>
     be applied to static elements. See the
-    <a href="accessibility/anti-patterns/non-interactive-hover">
+    <a href=`${urls.accessibility}/anti-patterns/non-interactive-hover`>
       non-interactive hover
     </a>
     anti-pattern.
@@ -42,7 +43,7 @@ import "../../../../sass/accessibility.scss";
     Tooltip
     <em>should not</em>
     be more than one sentence. Consider using the
-    <a href="components/infotip">
+    <a href=`${urls.components}/infotip`>
       Infotip
     </a>
     pattern for longer content.
@@ -122,7 +123,7 @@ import "../../../../sass/accessibility.scss";
     You
     <em>should</em>
     consider using the click-activated
-    <a href="components/infotip">
+    <a href=`${urls.components}/infotip`>
       Bubble Help
     </a>
     pattern instead.
@@ -140,7 +141,7 @@ import "../../../../sass/accessibility.scss";
   </p>
   <p>
     An
-    <a href="components/infotip">
+    <a href=`${urls.components}/infotip`>
       infotip button
     </a>
     provides a tip about a nearby static element or content. It is always

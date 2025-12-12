@@ -1,4 +1,6 @@
 import "../../../../sass/accessibility.scss";
+import { urls } from "../../../../data";
+
 <div class="a11y-pattern-content">
   <h1>Table Accessibility</h1>
   <h2>Best Practices</h2>
@@ -71,7 +73,7 @@ import "../../../../sass/accessibility.scss";
   </p>
   <p>
     The usual rules for
-    <a href="accessibility/input/button">
+    <a href=`${urls.accessibility}/input/button`>
       button
     </a>
     apply.
@@ -126,7 +128,7 @@ import "../../../../sass/accessibility.scss";
     The only special consideration for table is sortable columns. Typically this
     is achieved by adding a toggle button as the contents of the table header
     cell. The usual rules for
-    <a href="accessibility/input/button">
+    <a href=`${urls.accessibility}/input/button`>
       button
     </a>
     apply.

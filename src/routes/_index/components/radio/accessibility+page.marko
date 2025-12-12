@@ -1,4 +1,6 @@
 import "../../../../sass/accessibility.scss";
+import { urls } from "../../../../data";
+
 <div class="a11y-pattern-content">
   <h1>Radio Accessibility</h1>
   <h2>Best Practices</h2>
@@ -37,11 +39,11 @@ import "../../../../sass/accessibility.scss";
     Toggling a radio button should not trigger a page reload, popup or any
     change of context until the related form is explicitly submitted by the
     user. If this kind of behaviour is required, please consider the
-    <a href="components/switch">
+    <a href=`${urls.components}/switch`>
       switch
     </a>
     pattern or a button-less
-    <a href="components/menu">
+    <a href=`${urls.components}/menu`>
       menu
     </a>
     .

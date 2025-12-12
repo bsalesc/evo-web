@@ -1,3 +1,4 @@
+import { urls } from "../../../../data";
 <div id="textbox">
   <section-header/>
 
@@ -6,7 +7,7 @@
     The examples below show the textbox in isolation, without any label.
     Remember: every textbox requires a label!
   </p>
-  <!-- <p><strong>IMPORTANT:</strong> The examples below show the textbox in isolation, without any label. Please see the <a href="components/field">field</a> module for details on labelling controls. Remember: every textbox requires a label!</p> -->
+  <!-- <p><strong>IMPORTANT:</strong> The examples below show the textbox in isolation, without any label. Please see the <a href=`${urls.components}/field`>field</a> module for details on labelling controls. Remember: every textbox requires a label!</p> -->
 
   <h3>Single-Line Textbox</h3>
   <p>Use an input tag for a single-line textbox.</p>
@@ -178,7 +179,7 @@
   </h3>
   <p>
     Single-line textboxes can be augmented with any SVG
-    <a href="components/icon">
+    <a href=`${urls.components}/icon`>
       icon
     </a>
     .
@@ -256,7 +257,7 @@
   </h3>
   <p>
     Single-line textboxes also support an
-    <a href="components/icon-button">
+    <a href=`${urls.components}/icon-button`>
       icon button
     </a>
     in the end position.

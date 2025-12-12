@@ -1,3 +1,4 @@
+import { urls } from "../../../../data";
 import "../../../../sass/accessibility.scss";
 <div class="a11y-pattern-content">
   <h1>Button Accessibility</h1>
@@ -9,7 +10,7 @@ import "../../../../sass/accessibility.scss";
     Buttons should
     <strong>not</strong>
     have a hand cursor. See
-    <a href="accessibility/antipatterns/hand-cursor-on-buttons">
+    <a href=`${urls.accessibility}/antipatterns/hand-cursor-on-buttons`>
       Hand Cursor on Buttons
     </a>
     .
@@ -81,11 +82,11 @@ import "../../../../sass/accessibility.scss";
         </td>
         <td>
           Informs AT that the button opens a
-          <a href="components/menu">
+          <a href=`${urls.components}/menu`>
             menu
           </a>
           or
-          <a href="accessibility/disclosure/lightbox-dialog">
+          <a href=`${urls.accessibility}/disclosure/lightbox-dialog`>
             dialog
           </a>
           etc. when clicked.

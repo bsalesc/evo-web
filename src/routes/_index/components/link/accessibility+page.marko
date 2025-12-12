@@ -1,4 +1,6 @@
 import "../../../../sass/accessibility.scss";
+import { urls } from "../../../../data";
+
 <div class="a11y-pattern-content">
   <h1>Link Accessibility</h1>
   <h2>Best Practices</h2>
@@ -26,7 +28,7 @@ import "../../../../sass/accessibility.scss";
     HREF attribute
     <strong>must never</strong>
     be “javascript”. Please read the
-    <a href="accessibility/antipatterns/javascript-href">
+    <a href=`${urls.accessibility}/antipatterns/javascript-href`>
       JavaScript HREF anti-pattern
     </a>
     for more information and examples.
@@ -34,7 +36,7 @@ import "../../../../sass/accessibility.scss";
   <p>
     For links with labels that are not unique to the page (e.g. ‘Add to Cart’,
     ‘Edit’ or ‘Delete’, see the
-    <a href="accessibility/techniques/ambiguous-label">
+    <a href=`${urls.accessibility}/techniques/ambiguous-label`>
       Ambiguous Label
     </a>
     technique.
@@ -44,7 +46,7 @@ import "../../../../sass/accessibility.scss";
     <strong>must</strong>
     warn user if it will open in a new window or tab. An icon with
     alternative text is the recommended approach. Please read the
-    <a href="accessibility/antipatterns/open-new-window">
+    <a href=`${urls.accessibility}/antipatterns/open-new-window`>
       Open New Window anti-pattern
     </a>
     for more information and examples.
@@ -111,7 +113,7 @@ import "../../../../sass/accessibility.scss";
   <h3>Should I use offscreen text or aria-label?</h3>
   <p>
     If adding context to an ambiguous link, use
-    <a href="accessibility/techniques/offscreen-text">
+    <a href=`${urls.accessibility}/techniques/offscreen-text`>
       offscreen text
     </a>
     .

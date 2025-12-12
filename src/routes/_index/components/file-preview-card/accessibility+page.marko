@@ -1,3 +1,4 @@
+import { urls } from "../../../../data";
 import "../../../../sass/accessibility.scss";
 <div class="a11y-pattern-content">
   <h1>File Preview Card Accessibility</h1>
@@ -19,11 +20,11 @@ import "../../../../sass/accessibility.scss";
     “Uploading…” or “Busy.” It is not recommended to make the progress indicator
     a live region, as this can get noisy for multiple file upload. To convey
     upload error states, follow
-    <a href="accessibility/patterns/form-validation">
+    <a href=`${urls.accessibility}/patterns/form-validation`>
       form validation best practices
     </a>
     and group similar errors into
-    <a href="components/inline-notice">
+    <a href=`${urls.components}/inline-notice`>
       inline notices
     </a>
     .
@@ -41,11 +42,11 @@ import "../../../../sass/accessibility.scss";
   <p>File preview cards themselves are not focusable or interactive.</p>
   <p>
     Their actions follow standard
-    <a href="accessibility/input/button">
+    <a href=`${urls.accessibility}/input/button`>
       button
     </a>
     and
-    <a href="accessibility/input/menu-button">
+    <a href=`${urls.accessibility}/input/menu-button`>
       menu button
     </a>
     keyboard interaction.

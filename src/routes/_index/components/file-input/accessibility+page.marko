@@ -1,4 +1,5 @@
 import "../../../../sass/accessibility.scss";
+import { urls } from "../../../../data";
 <div class="a11y-pattern-content">
   <h1>File Input Accessibility</h1>
   <h2>Best Practices</h2>
@@ -43,7 +44,7 @@ import "../../../../sass/accessibility.scss";
       If the default selected file display is obscured, there
       <strong>must</strong>
       be another visual representation of the files to be submitted.
-      <a href="accessibility/messaging/file-preview-card">
+      <a href=`${urls.accessibility}/messaging/file-preview-card`>
         File preview cards
       </a>
       are one way to accomplish this.

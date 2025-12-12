@@ -1,4 +1,6 @@
 import "../../../../sass/accessibility.scss";
+import { urls } from "../../../../data";
+
 <div class="a11y-pattern-content">
   <h1>Infotip Accessibility</h1>
   <h2>Best Practices</h2>
@@ -22,7 +24,7 @@ import "../../../../sass/accessibility.scss";
     <code>aria-haspopup</code>
     attribute. Despite the name of this property, it is actually intended
     specifically for a
-    <a href="components/menu">
+    <a href=`${urls.components}/menu`>
       Menu
     </a>
     .
@@ -45,7 +47,7 @@ import "../../../../sass/accessibility.scss";
     <em>should</em>
     be hidden by default. If you wish to display a tip on page load,
     consider the
-    <a href="components/tourtip">
+    <a href=`${urls.components}/tourtip`>
       Tourtip
     </a>
     .
@@ -55,7 +57,7 @@ import "../../../../sass/accessibility.scss";
     <em>should</em>
     be no more than one or two paragraphs in length. For lengthier
     content, consider instead using a
-    <a href="components/lightbox-dialog">
+    <a href=`${urls.components}/lightbox-dialog`>
       dialog
     </a>
     .
@@ -166,7 +168,7 @@ import "../../../../sass/accessibility.scss";
   <h3>What is the difference between Infotip Button and Tooltip?</h3>
   <p>
     A
-    <a href="components/tooltip">
+    <a href=`${urls.components}/tooltip`>
       tooltip
     </a>
     provides a tip about the

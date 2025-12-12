@@ -1,3 +1,4 @@
+import { urls } from "../../../../data";
 <div class="a11y-pattern-content">
   <h1>Accessibility FAQ</h1>
   <p>
@@ -49,7 +50,7 @@
   </p>
   <p>
     See
-    <a href="accessibility/anti-patterns/hand-cursor-on-buttons">
+    <a href=`${urls.accessibility}/anti-patterns/hand-cursor-on-buttons`>
       Hand Cursor on Buttons
     </a>
     antipattern for more info.
@@ -76,7 +77,7 @@
   <p>
     Not every dynamic update to the page needs to be communicated to the user
     via a
-    <a href="accessibility/techniques/live-region">
+    <a href=`${urls.accessibility}/techniques/live-region`>
       live region
     </a>
     . Doing so could create a confusing, noisy and distracting experience
@@ -140,7 +141,7 @@
     is to inform that there
     <em>was</em>
     an error. They can then navigate to the
-    <a href="accessibility/messaging/page-notice">
+    <a href=`${urls.accessibility}/messaging/page-notice`>
       page notice
     </a>
     or field to learn more.
@@ -195,7 +196,7 @@
   <h2>Will offscreen text incur a search ranking penalty?</h2>
   <p>
     No, it is fine to use
-    <a href="accessibility/techniques/offscreen-text">
+    <a href=`${urls.accessibility}/techniques/offscreen-text`>
       offscreen text
     </a>
     .

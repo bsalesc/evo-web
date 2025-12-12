@@ -1,4 +1,6 @@
 import "../../../../sass/accessibility.scss";
+import { urls } from "../../../../data";
+
 <div class="a11y-pattern-content">
   <h1>Number Input Accessibility</h1>
   <h2>Best Practices</h2>
@@ -66,7 +68,7 @@ import "../../../../sass/accessibility.scss";
     For quantity input, the delete button
     <strong>must</strong>
     follow
-    <a href="components/button/accessibility">
+    <a href=`${urls.components}/button/accessibility`>
       all standard button keyboard interactions
     </a>
     . After deleting an entry, focus must move to the nearest focusable

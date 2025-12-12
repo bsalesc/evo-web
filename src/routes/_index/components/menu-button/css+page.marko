@@ -1,3 +1,4 @@
+import { urls } from "../../../../data";
 <div id="menu-button">
   <section-header/>
 
@@ -437,12 +438,12 @@
       If a fixed label is not possible, the button's inner text can potentially
       be written as a key/value pair, where key denotes purpose and value
       repesents the current selection. This is most typical in a
-      <a href="components/menu-button/#menu-button-radio">
+      <a href=`${urls.components}/menu-button/#menu-button-radio`>
         single select menu button
       </a>
       . For example: "Sort: Price", "Color: Red". This technique is
       identical to the method used by
-      <a href="components/listbox-button">
+      <a href=`${urls.components}/listbox-button`>
         Listbox Button
       </a>
       .
@@ -919,11 +920,11 @@
     be used as a dropdown for selecting and storing form
     <em>data</em>
     . Please use
-    <a href="components/button">
+    <a href=`${urls.components}/button`>
       select
     </a>
     or
-    <a href="components/button">
+    <a href=`${urls.components}/button`>
       listbox-button
     </a>
     for that purpose instead.

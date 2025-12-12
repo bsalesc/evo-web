@@ -1,4 +1,6 @@
 import "../../../../sass/accessibility.scss";
+import { urls } from "../../../../data";
+
 <div class="a11y-pattern-content">
   <h1>Date Textbox Accessibility</h1>
   <h2>Best Practices</h2>
@@ -27,7 +29,7 @@ import "../../../../sass/accessibility.scss";
   <p>
     When a date button inside of the grid receives focus, keyboard interaction
     switches to a
-    <a href="accessibility/techniques/roving-tabindex">
+    <a href=`${urls.accessibility}/techniques/roving-tabindex`>
       roving tabindex
     </a>
     based style, using the ARROW keys, e.g. RIGHT-ARROW moves to the

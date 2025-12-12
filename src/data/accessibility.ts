@@ -11,6 +11,7 @@ const a11yDocsTemplates = import.meta.glob(
 export interface A11yDocsMap {
   [key: string]: {
     properName: string;
+    name: string;
     list: {
       properName: string;
       name: string;
@@ -34,6 +35,7 @@ export const a11yDocs = Object.keys(a11yDocsTemplates).reduce<A11yDocsMap>(
     const properName = getProperName(name);
     data[type] = data[type] || {};
     data[type].properName = getProperName(type);
+    data[type].name = type;
     data[type].list = data[type].list || [];
 
     data[type].list.push({

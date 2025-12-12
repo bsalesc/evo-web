@@ -1,4 +1,6 @@
 import "../../../../sass/accessibility.scss";
+import { urls } from "../../../../data";
+
 <div class="a11y-pattern-content">
   <h1>Menu Accessibility</h1>
   <h2>Best Practices</h2>
@@ -26,7 +28,7 @@ import "../../../../sass/accessibility.scss";
     Selecting a command
     <em>should not</em>
     fully reload the page (use a
-    <a href="accessibility/patterns/fake-menu-button">
+    <a href=`${urls.accessibility}/patterns/fake-menu-button`>
       fake menu
     </a>
     instead).

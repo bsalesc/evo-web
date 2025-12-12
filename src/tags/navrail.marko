@@ -11,7 +11,16 @@ export interface Input {
             <div class="site-nav secondary-nav">
                 <nav id="nav" aria-labelledby="navrail-nav_title">
                     <h2 id="navrail-nav_title">
-                        <a href=urls.components>
+                        <const/currentUrl = (() => {
+                            if (input.page === "components") {
+                                return urls.components;
+                            } else if (input.page === "accessibility") {
+                                return urls.accessibility
+                            } else if (input.page === "guides") {
+                                return urls.guides;
+                            }
+                        })()>
+                        <a href=currentUrl>
                             ${input.page?.toLocaleUpperCase()}
                         </a>
                     </h2>

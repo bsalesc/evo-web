@@ -1,4 +1,6 @@
 import "../../../../sass/accessibility.scss";
+import { urls } from "../../../../data";
+
 <div class="a11y-pattern-content">
   <h1>Listbox Button Accessibility</h1>
   <h2>Best Practices</h2>
@@ -69,7 +71,7 @@ import "../../../../sass/accessibility.scss";
     <code>SPACEBAR</code>
     will will toggle the expanded state of button. On expand, keyboard
     focus should move to the listbox. The listbox implements an
-    <a href="accessibility/techniques/active-descendant">
+    <a href=`${urls.accessibility}/techniques/active-descendant`>
       active-descendant
     </a>
     keyboard model.
