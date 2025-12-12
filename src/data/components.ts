@@ -76,7 +76,7 @@ export const components = Object.keys(componentTemplate).reduce<ComponentMap>(
       properName,
       name,
       fullPath: filePath,
-      pageImg: `img/components/${name}.png`,
+      pageImg: `${basePath}img/components/${name}.png`,
       metadata,
       dsComponent,
       a11yPage: a11yPages.has(name),
