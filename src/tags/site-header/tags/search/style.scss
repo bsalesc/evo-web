@@ -4,10 +4,15 @@
 
 .DocSearch {
   --docsearch-primary-color: var(--color-foreground-primary);
-}
-
-.DocSearch-SearchBar {
-  --docsearch-highlight-color: var(--color-foreground-on-inverse);
+  --docsearch-search-button-text-color: var(--color-forground-primary);
+  --docsearch-text-color: var(--color-foreground-primary);
+  --docsearch-hit-background: var(--color-background-primary);
+  --docsearch-secondary-text-color: var(--color-foreground-accent);
+  --docsearch-searchbox-focus-background: var(--color-background-primary);
+  --docsearch-modal-background: var(--color-background-primary);
+  --docsearch-highlight-color: var(--color-foreground-accent);
+  --docsearch-icon-color: var(--color-foreground-on-primary);
+  --docsearch-footer-background: var(--color-background-primary);
 }
 
 header.DocSearch-SearchBar {
@@ -50,7 +55,7 @@ header.DocSearch-SearchBar {
 }
 
 .DocSearch .DocSearch-Hit[aria-selected="true"] a {
-  background-color: var(--docsearch-primary-color);
+  background-color: var(--color-background-tertiary);
 }
 
 .DocSearch .DocSearch-Hits mark {
@@ -71,13 +76,6 @@ header.DocSearch-SearchBar {
     width: 40px;
   }
 
-  // .DocSearch.DocSearch-Button:focus-visible {
-  //     outline-style: solid;
-  //     outline-color: revert;
-  //     outline-offset: -2px;
-  //     outline-width: 2px;
-  // }
-
   .DocSearch.DocSearch-Button:hover {
     background-color: var(--color-state-secondary-hover);
   }
@@ -87,7 +85,6 @@ header.DocSearch-SearchBar {
   .DocSearch.DocSearch-Button {
     background-color: transparent;
     border: none;
-    border: 1px solid var(--color-stroke-default);
     justify-content: right;
   }
 
