@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<EbayItemTile> renders component with action 1`] = `
+exports[`<EbayItemTile> > renders component with action 1`] = `
 <DocumentFragment>
   <div
     class="item-tile"
@@ -85,7 +85,7 @@ exports[`<EbayItemTile> renders component with action 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayItemTile> renders component without action 1`] = `
+exports[`<EbayItemTile> > renders component without action 1`] = `
 <DocumentFragment>
   <div
     class="item-tile"
@@ -154,7 +154,7 @@ exports[`<EbayItemTile> renders component without action 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayItemTile> renders component without description 1`] = `
+exports[`<EbayItemTile> > renders component without description 1`] = `
 <DocumentFragment>
   <div
     class="item-tile"
@@ -204,7 +204,7 @@ exports[`<EbayItemTile> renders component without description 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayItemTile> renders component without secondary section 1`] = `
+exports[`<EbayItemTile> > renders component without secondary section 1`] = `
 <DocumentFragment>
   <div
     class="item-tile"

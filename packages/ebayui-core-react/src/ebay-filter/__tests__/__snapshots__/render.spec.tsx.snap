@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<EbayFilter /> rendering renders default story correctly 1`] = `
+exports[`<EbayFilter /> rendering > renders default story correctly 1`] = `
 <div>
   <button
     class="filter-button filter-button--unselected"
@@ -17,7 +17,7 @@ exports[`<EbayFilter /> rendering renders default story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayFilter /> rendering renders with disabled attribute 1`] = `
+exports[`<EbayFilter /> rendering > renders with disabled attribute 1`] = `
 <div>
   <button
     class="filter-button filter-button--unselected"
@@ -35,7 +35,7 @@ exports[`<EbayFilter /> rendering renders with disabled attribute 1`] = `
 </div>
 `;
 
-exports[`<EbayFilter /> rendering renders with link 1`] = `
+exports[`<EbayFilter /> rendering > renders with link 1`] = `
 <div>
   <a
     class="filter-link filter-link--unselected"
@@ -52,7 +52,7 @@ exports[`<EbayFilter /> rendering renders with link 1`] = `
 </div>
 `;
 
-exports[`<EbayFilter /> rendering renders with link and disabled attribute 1`] = `
+exports[`<EbayFilter /> rendering > renders with link and disabled attribute 1`] = `
 <div>
   <a
     class="filter-link filter-link--unselected"
@@ -70,7 +70,7 @@ exports[`<EbayFilter /> rendering renders with link and disabled attribute 1`] =
 </div>
 `;
 
-exports[`<EbayFilter /> rendering renders with pressed attribute 1`] = `
+exports[`<EbayFilter /> rendering > renders with pressed attribute 1`] = `
 <div>
   <button
     aria-pressed="true"
@@ -88,7 +88,7 @@ exports[`<EbayFilter /> rendering renders with pressed attribute 1`] = `
 </div>
 `;
 
-exports[`<EbayFilter /> rendering renders without pressed attribute 1`] = `
+exports[`<EbayFilter /> rendering > renders without pressed attribute 1`] = `
 <div>
   <button
     class="filter-button filter-button--selected"

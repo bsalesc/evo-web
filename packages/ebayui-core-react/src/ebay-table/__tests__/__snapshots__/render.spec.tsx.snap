@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<EbayTable /> rendering renders column sorting client side story correctly 1`] = `
+exports[`<EbayTable /> rendering > renders column sorting client side story correctly 1`] = `
 <div>
   <div
     class="table"
@@ -403,7 +403,7 @@ exports[`<EbayTable /> rendering renders column sorting client side story correc
 </div>
 `;
 
-exports[`<EbayTable /> rendering renders column sorting story correctly 1`] = `
+exports[`<EbayTable /> rendering > renders column sorting story correctly 1`] = `
 <div>
   <div
     class="table"
@@ -932,7 +932,7 @@ exports[`<EbayTable /> rendering renders column sorting story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayTable /> rendering renders column sorting with links story correctly 1`] = `
+exports[`<EbayTable /> rendering > renders column sorting with links story correctly 1`] = `
 <div>
   <div
     class="table"
@@ -1317,7 +1317,7 @@ exports[`<EbayTable /> rendering renders column sorting with links story correct
 </div>
 `;
 
-exports[`<EbayTable /> rendering renders default story correctly 1`] = `
+exports[`<EbayTable /> rendering > renders default story correctly 1`] = `
 <div>
   <div
     class="table"
@@ -1686,7 +1686,7 @@ exports[`<EbayTable /> rendering renders default story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayTable /> rendering renders table with action story correctly 1`] = `
+exports[`<EbayTable /> rendering > renders table with action story correctly 1`] = `
 <div>
   <div
     class="table"
@@ -2549,7 +2549,7 @@ exports[`<EbayTable /> rendering renders table with action story correctly 1`] =
 </div>
 `;
 
-exports[`<EbayTable /> rendering renders with frozen header 1`] = `
+exports[`<EbayTable /> rendering > renders with frozen header 1`] = `
 <div>
   <div
     class="table table--frozen-header"

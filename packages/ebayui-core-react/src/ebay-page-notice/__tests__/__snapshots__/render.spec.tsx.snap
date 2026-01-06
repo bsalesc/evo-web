@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ebay-page-notice rendering renders attention message story correctly 1`] = `
+exports[`ebay-page-notice rendering > renders attention message story correctly 1`] = `
 <svg
   aria-label="Attention"
   class="icon icon--16 icon--attention-filled"
@@ -14,7 +14,7 @@ exports[`ebay-page-notice rendering renders attention message story correctly 1`
 </svg>
 `;
 
-exports[`ebay-page-notice rendering renders confirmation message story correctly 1`] = `
+exports[`ebay-page-notice rendering > renders confirmation message story correctly 1`] = `
 <svg
   aria-label="Success"
   class="icon icon--16 icon--confirmation-filled"
@@ -28,7 +28,7 @@ exports[`ebay-page-notice rendering renders confirmation message story correctly
 </svg>
 `;
 
-exports[`ebay-page-notice rendering renders dismissible message with cta story correctly 1`] = `
+exports[`ebay-page-notice rendering > renders dismissible message with cta story correctly 1`] = `
 <svg
   aria-label="Congratulations"
   class="icon icon--16 icon--information-filled"
@@ -42,7 +42,7 @@ exports[`ebay-page-notice rendering renders dismissible message with cta story c
 </svg>
 `;
 
-exports[`ebay-page-notice rendering renders dismissible message with cta story correctly 2`] = `
+exports[`ebay-page-notice rendering > renders dismissible message with cta story correctly 2`] = `
 <svg
   aria-hidden="true"
   class="icon icon--16"
@@ -55,7 +55,7 @@ exports[`ebay-page-notice rendering renders dismissible message with cta story c
 </svg>
 `;
 
-exports[`ebay-page-notice rendering renders dismissible notice story correctly 1`] = `
+exports[`ebay-page-notice rendering > renders dismissible notice story correctly 1`] = `
 <svg
   aria-label="Information"
   class="icon icon--16 icon--information-filled"
@@ -69,7 +69,7 @@ exports[`ebay-page-notice rendering renders dismissible notice story correctly 1
 </svg>
 `;
 
-exports[`ebay-page-notice rendering renders information message story correctly 1`] = `
+exports[`ebay-page-notice rendering > renders information message story correctly 1`] = `
 <svg
   aria-label="Information"
   class="icon icon--16 icon--information-filled"
@@ -83,7 +83,7 @@ exports[`ebay-page-notice rendering renders information message story correctly 
 </svg>
 `;
 
-exports[`ebay-page-notice rendering renders message with footer story correctly 1`] = `
+exports[`ebay-page-notice rendering > renders message with footer story correctly 1`] = `
 <svg
   aria-label="Congratulations"
   class="icon icon--16 icon--confirmation-filled"
@@ -97,7 +97,7 @@ exports[`ebay-page-notice rendering renders message with footer story correctly 
 </svg>
 `;
 
-exports[`ebay-page-notice rendering renders simple usage with id story correctly 1`] = `
+exports[`ebay-page-notice rendering > renders simple usage with id story correctly 1`] = `
 <svg
   aria-label="Success"
   class="icon icon--16 icon--confirmation-filled"

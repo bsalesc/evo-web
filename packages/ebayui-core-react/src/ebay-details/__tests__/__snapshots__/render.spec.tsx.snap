@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<EbayDetails> rendering renders center alignment story correctly 1`] = `
+exports[`<EbayDetails> rendering > renders center alignment story correctly 1`] = `
 <details
   class="details"
 >
@@ -36,7 +36,7 @@ exports[`<EbayDetails> rendering renders center alignment story correctly 1`] = 
 </details>
 `;
 
-exports[`<EbayDetails> rendering renders default story correctly 1`] = `
+exports[`<EbayDetails> rendering > renders default story correctly 1`] = `
 <details
   class="details"
 >
@@ -72,7 +72,7 @@ exports[`<EbayDetails> rendering renders default story correctly 1`] = `
 </details>
 `;
 
-exports[`<EbayDetails> rendering renders small size story correctly 1`] = `
+exports[`<EbayDetails> rendering > renders small size story correctly 1`] = `
 <details
   class="details"
 >

@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ebay-carousel rendering renders continuous story correctly 1`] = `
+exports[`ebay-carousel rendering > renders continuous story correctly 1`] = `
 <button
   aria-disabled="true"
   class="carousel__control carousel__control--prev"
@@ -18,7 +18,7 @@ exports[`ebay-carousel rendering renders continuous story correctly 1`] = `
 </button>
 `;
 
-exports[`ebay-carousel rendering renders continuous story correctly 2`] = `
+exports[`ebay-carousel rendering > renders continuous story correctly 2`] = `
 <button
   aria-disabled="true"
   class="carousel__control carousel__control--next"

@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`EbayPhoneInput render renders basic component 1`] = `
+exports[`EbayPhoneInput render > renders basic component 1`] = `
 <span
   class="phone-input"
 >
@@ -795,7 +795,7 @@ exports[`EbayPhoneInput render renders basic component 1`] = `
 </span>
 `;
 
-exports[`EbayPhoneInput render renders disabled state 1`] = `
+exports[`EbayPhoneInput render > renders disabled state 1`] = `
 <span
   class="phone-input phone-input--disabled"
 >
@@ -1601,7 +1601,7 @@ exports[`EbayPhoneInput render renders disabled state 1`] = `
 </span>
 `;
 
-exports[`EbayPhoneInput render renders invalid state 1`] = `
+exports[`EbayPhoneInput render > renders invalid state 1`] = `
 <span
   class="phone-input phone-input--error"
 >
@@ -2406,7 +2406,7 @@ exports[`EbayPhoneInput render renders invalid state 1`] = `
 </span>
 `;
 
-exports[`EbayPhoneInput render renders readonly state 1`] = `
+exports[`EbayPhoneInput render > renders readonly state 1`] = `
 <span
   class="phone-input phone-input--readonly"
 >
@@ -3212,7 +3212,7 @@ exports[`EbayPhoneInput render renders readonly state 1`] = `
 </span>
 `;
 
-exports[`EbayPhoneInput render renders with all props 1`] = `
+exports[`EbayPhoneInput render > renders with all props 1`] = `
 <span
   class="phone-input custom-phone-input"
 >
@@ -4017,7 +4017,7 @@ exports[`EbayPhoneInput render renders with all props 1`] = `
 </span>
 `;
 
-exports[`EbayPhoneInput render renders with custom locale 1`] = `
+exports[`EbayPhoneInput render > renders with custom locale 1`] = `
 <span
   class="phone-input"
 >
@@ -4821,7 +4821,7 @@ exports[`EbayPhoneInput render renders with custom locale 1`] = `
 </span>
 `;
 
-exports[`EbayPhoneInput render renders with different country 1`] = `
+exports[`EbayPhoneInput render > renders with different country 1`] = `
 <span
   class="phone-input"
 >

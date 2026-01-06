@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<EbayFilterChip /> rendering renders anchor selected story correctly 1`] = `
+exports[`<EbayFilterChip /> rendering > renders anchor selected story correctly 1`] = `
 <div>
   <a
     class="filter-chip filter-chip--selected filter-chip--animated"
@@ -21,7 +21,7 @@ exports[`<EbayFilterChip /> rendering renders anchor selected story correctly 1`
 </div>
 `;
 
-exports[`<EbayFilterChip /> rendering renders anchor story correctly 1`] = `
+exports[`<EbayFilterChip /> rendering > renders anchor story correctly 1`] = `
 <div>
   <a
     class="filter-chip filter-chip--animated"
@@ -36,7 +36,7 @@ exports[`<EbayFilterChip /> rendering renders anchor story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayFilterChip /> rendering renders collection story correctly 1`] = `
+exports[`<EbayFilterChip /> rendering > renders collection story correctly 1`] = `
 <div>
   <div
     style="display: flex; gap: 8px; flex-wrap: wrap;"
@@ -112,7 +112,7 @@ exports[`<EbayFilterChip /> rendering renders collection story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayFilterChip /> rendering renders default story correctly 1`] = `
+exports[`<EbayFilterChip /> rendering > renders default story correctly 1`] = `
 <div>
   <button
     aria-pressed="false"
@@ -128,7 +128,7 @@ exports[`<EbayFilterChip /> rendering renders default story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayFilterChip /> rendering renders disabled story correctly 1`] = `
+exports[`<EbayFilterChip /> rendering > renders disabled story correctly 1`] = `
 <div>
   <button
     aria-pressed="false"
@@ -145,7 +145,7 @@ exports[`<EbayFilterChip /> rendering renders disabled story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayFilterChip /> rendering renders expressive selected story correctly 1`] = `
+exports[`<EbayFilterChip /> rendering > renders expressive selected story correctly 1`] = `
 <div>
   <button
     aria-pressed="true"
@@ -169,7 +169,7 @@ exports[`<EbayFilterChip /> rendering renders expressive selected story correctl
 </div>
 `;
 
-exports[`<EbayFilterChip /> rendering renders expressive story correctly 1`] = `
+exports[`<EbayFilterChip /> rendering > renders expressive story correctly 1`] = `
 <div>
   <button
     aria-pressed="false"
@@ -193,7 +193,7 @@ exports[`<EbayFilterChip /> rendering renders expressive story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayFilterChip /> rendering renders menu expanded story correctly 1`] = `
+exports[`<EbayFilterChip /> rendering > renders menu expanded story correctly 1`] = `
 <div>
   <button
     aria-expanded="true"
@@ -220,7 +220,7 @@ exports[`<EbayFilterChip /> rendering renders menu expanded story correctly 1`] 
 </div>
 `;
 
-exports[`<EbayFilterChip /> rendering renders menu story correctly 1`] = `
+exports[`<EbayFilterChip /> rendering > renders menu story correctly 1`] = `
 <div>
   <button
     aria-expanded="false"
@@ -247,7 +247,7 @@ exports[`<EbayFilterChip /> rendering renders menu story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayFilterChip /> rendering renders selected story correctly 1`] = `
+exports[`<EbayFilterChip /> rendering > renders selected story correctly 1`] = `
 <div>
   <button
     aria-pressed="true"
@@ -263,7 +263,7 @@ exports[`<EbayFilterChip /> rendering renders selected story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayFilterChip /> rendering renders with icon story correctly 1`] = `
+exports[`<EbayFilterChip /> rendering > renders with icon story correctly 1`] = `
 <div>
   <button
     aria-pressed="false"

@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ebay-textbox rendering renders floating label fluid story correctly 1`] = `
+exports[`ebay-textbox rendering > renders floating label fluid story correctly 1`] = `
 <div>
   <div
     class="floating-label"
@@ -23,7 +23,7 @@ exports[`ebay-textbox rendering renders floating label fluid story correctly 1`]
 </div>
 `;
 
-exports[`ebay-textbox rendering renders floating label story correctly 1`] = `
+exports[`ebay-textbox rendering > renders floating label story correctly 1`] = `
 <div>
   <span
     class="floating-label"
@@ -46,7 +46,7 @@ exports[`ebay-textbox rendering renders floating label story correctly 1`] = `
 </div>
 `;
 
-exports[`ebay-textbox rendering renders with icon story correctly 1`] = `
+exports[`ebay-textbox rendering > renders with icon story correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--16"
@@ -59,7 +59,7 @@ exports[`ebay-textbox rendering renders with icon story correctly 1`] = `
 </svg>
 `;
 
-exports[`ebay-textbox rendering renders with pre/post fix text correctly 1`] = `
+exports[`ebay-textbox rendering > renders with pre/post fix text correctly 1`] = `
 <div>
   <div>
     <p>

@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<EbayAvatar /> rendering renders a different color for different users 1`] = `
+exports[`<EbayAvatar /> rendering > renders a different color for different users 1`] = `
 <div>
   <div
     aria-label="Signed in as Elizabeth"
@@ -12,7 +12,7 @@ exports[`<EbayAvatar /> rendering renders a different color for different users 
 </div>
 `;
 
-exports[`<EbayAvatar /> rendering renders a different color for different users 2`] = `
+exports[`<EbayAvatar /> rendering > renders a different color for different users 2`] = `
 <div>
   <div
     aria-label="Signed in as Elizabeth"
@@ -24,7 +24,7 @@ exports[`<EbayAvatar /> rendering renders a different color for different users 
 </div>
 `;
 
-exports[`<EbayAvatar /> rendering renders a different color for different users 3`] = `
+exports[`<EbayAvatar /> rendering > renders a different color for different users 3`] = `
 <div>
   <div
     aria-label="Signed in as Elizabeth"
@@ -36,7 +36,7 @@ exports[`<EbayAvatar /> rendering renders a different color for different users 
 </div>
 `;
 
-exports[`<EbayAvatar /> rendering renders default story correctly 1`] = `
+exports[`<EbayAvatar /> rendering > renders default story correctly 1`] = `
 <div>
   <div
     aria-label="Signed in as Elizabeth"
@@ -48,7 +48,7 @@ exports[`<EbayAvatar /> rendering renders default story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayAvatar /> rendering renders signed out story correctly 1`] = `
+exports[`<EbayAvatar /> rendering > renders signed out story correctly 1`] = `
 <div>
   <div
     aria-label="Signed out"
@@ -69,7 +69,7 @@ exports[`<EbayAvatar /> rendering renders signed out story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayAvatar /> rendering renders the image-fit correctly 1`] = `
+exports[`<EbayAvatar /> rendering > renders the image-fit correctly 1`] = `
 <div>
   <div
     class="avatar avatar--fit"
@@ -82,7 +82,7 @@ exports[`<EbayAvatar /> rendering renders the image-fit correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayAvatar /> rendering renders with custom body story correctly 1`] = `
+exports[`<EbayAvatar /> rendering > renders with custom body story correctly 1`] = `
 <div>
   <div
     aria-label="Signed in as Elizabeth"
@@ -100,7 +100,7 @@ exports[`<EbayAvatar /> rendering renders with custom body story correctly 1`] =
 </div>
 `;
 
-exports[`<EbayAvatar /> rendering renders with image story correctly 1`] = `
+exports[`<EbayAvatar /> rendering > renders with image story correctly 1`] = `
 <div>
   <div
     aria-label="Signed in as Elizabeth"
@@ -115,7 +115,7 @@ exports[`<EbayAvatar /> rendering renders with image story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayAvatar /> rendering should automatically define image-fit on image load 1`] = `
+exports[`<EbayAvatar /> rendering > should automatically define image-fit on image load 1`] = `
 <div>
   <div
     class="avatar avatar--fit"

@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<EbayFileInput /> rendering renders default story correctly 1`] = `
+exports[`<EbayFileInput /> rendering > renders default story correctly 1`] = `
 <div>
   <div
     class="file-input"
@@ -57,7 +57,7 @@ exports[`<EbayFileInput /> rendering renders default story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayFileInput /> rendering renders with mock uploads 1`] = `
+exports[`<EbayFileInput /> rendering > renders with mock uploads 1`] = `
 <div>
   <div
     class="file-input"
@@ -117,7 +117,7 @@ exports[`<EbayFileInput /> rendering renders with mock uploads 1`] = `
 </div>
 `;
 
-exports[`<EbayFileInput /> rendering renders with preview cards 1`] = `
+exports[`<EbayFileInput /> rendering > renders with preview cards 1`] = `
 <div>
   <div
     class="file-input"

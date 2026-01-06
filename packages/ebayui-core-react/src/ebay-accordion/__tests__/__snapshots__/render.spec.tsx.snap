@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<EbayAccordion /> rendering renders autoCollapse story correctly 1`] = `
+exports[`<EbayAccordion /> rendering > renders autoCollapse story correctly 1`] = `
 <div>
   <ul
     aria-roledescription="accordion"
@@ -121,7 +121,7 @@ exports[`<EbayAccordion /> rendering renders autoCollapse story correctly 1`] = 
 </div>
 `;
 
-exports[`<EbayAccordion /> rendering renders default story correctly 1`] = `
+exports[`<EbayAccordion /> rendering > renders default story correctly 1`] = `
 <div>
   <ul
     aria-roledescription="accordion"
@@ -242,7 +242,7 @@ exports[`<EbayAccordion /> rendering renders default story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayAccordion /> rendering renders large size story correctly 1`] = `
+exports[`<EbayAccordion /> rendering > renders large size story correctly 1`] = `
 <div>
   <ul
     aria-roledescription="accordion"
@@ -363,7 +363,7 @@ exports[`<EbayAccordion /> rendering renders large size story correctly 1`] = `
 </div>
 `;
 
-exports[`<EbayAccordion /> rendering renders open story correctly 1`] = `
+exports[`<EbayAccordion /> rendering > renders open story correctly 1`] = `
 <div>
   <ul
     aria-roledescription="accordion"

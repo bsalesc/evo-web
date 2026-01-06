@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<EbayEducationNotice> should render notice prominent snapshot 1`] = `
+exports[`<EbayEducationNotice> > should render notice prominent snapshot 1`] = `
 <DocumentFragment>
   <section
     aria-roledescription="Notice"
@@ -52,7 +52,7 @@ exports[`<EbayEducationNotice> should render notice prominent snapshot 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayEducationNotice> should render notice snapshot 1`] = `
+exports[`<EbayEducationNotice> > should render notice snapshot 1`] = `
 <DocumentFragment>
   <section
     aria-roledescription="Notice"

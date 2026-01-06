@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ebay-tourtip rendering renders default story correctly 1`] = `
+exports[`ebay-tourtip rendering > renders default story correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--16"

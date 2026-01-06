@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ebay-split-button rendering renders split button correctly 1`] = `
+exports[`ebay-split-button rendering > renders split button correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--12"
@@ -13,7 +13,7 @@ exports[`ebay-split-button rendering renders split button correctly 1`] = `
 </svg>
 `;
 
-exports[`ebay-split-button rendering renders split button correctly 2`] = `
+exports[`ebay-split-button rendering > renders split button correctly 2`] = `
 <svg
   aria-hidden="true"
   class="icon icon--12"
@@ -26,7 +26,7 @@ exports[`ebay-split-button rendering renders split button correctly 2`] = `
 </svg>
 `;
 
-exports[`ebay-split-button rendering renders split button correctly 3`] = `
+exports[`ebay-split-button rendering > renders split button correctly 3`] = `
 <svg
   aria-hidden="true"
   class="icon icon--12"
@@ -39,7 +39,7 @@ exports[`ebay-split-button rendering renders split button correctly 3`] = `
 </svg>
 `;
 
-exports[`ebay-split-button rendering renders split button with controls correctly 1`] = `
+exports[`ebay-split-button rendering > renders split button with controls correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--12"
@@ -52,7 +52,7 @@ exports[`ebay-split-button rendering renders split button with controls correctl
 </svg>
 `;
 
-exports[`ebay-split-button rendering renders split button with loading state correctly 1`] = `
+exports[`ebay-split-button rendering > renders split button with loading state correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--12"
@@ -65,7 +65,7 @@ exports[`ebay-split-button rendering renders split button with loading state cor
 </svg>
 `;
 
-exports[`ebay-split-button rendering renders split button with pre-loading state correctly 1`] = `
+exports[`ebay-split-button rendering > renders split button with pre-loading state correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--12"
@@ -78,7 +78,7 @@ exports[`ebay-split-button rendering renders split button with pre-loading state
 </svg>
 `;
 
-exports[`ebay-split-button rendering renders split button with size correctly 1`] = `
+exports[`ebay-split-button rendering > renders split button with size correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--12"
@@ -91,7 +91,7 @@ exports[`ebay-split-button rendering renders split button with size correctly 1`
 </svg>
 `;
 
-exports[`ebay-split-button rendering renders transparent split button correctly 1`] = `
+exports[`ebay-split-button rendering > renders transparent split button correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--12"
@@ -104,7 +104,7 @@ exports[`ebay-split-button rendering renders transparent split button correctly 
 </svg>
 `;
 
-exports[`ebay-split-button rendering renders truncated split button correctly 1`] = `
+exports[`ebay-split-button rendering > renders truncated split button correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--12"

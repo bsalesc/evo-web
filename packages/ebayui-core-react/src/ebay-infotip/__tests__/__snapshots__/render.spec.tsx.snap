@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ebay-infotip rendering renders custom icon story correctly 1`] = `
+exports[`ebay-infotip rendering > renders custom icon story correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--16"
@@ -13,7 +13,7 @@ exports[`ebay-infotip rendering renders custom icon story correctly 1`] = `
 </svg>
 `;
 
-exports[`ebay-infotip rendering renders default story correctly 1`] = `
+exports[`ebay-infotip rendering > renders default story correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--16"
@@ -26,7 +26,7 @@ exports[`ebay-infotip rendering renders default story correctly 1`] = `
 </svg>
 `;
 
-exports[`ebay-infotip rendering renders default story correctly 2`] = `
+exports[`ebay-infotip rendering > renders default story correctly 2`] = `
 <svg
   aria-hidden="true"
   class="icon icon--16"

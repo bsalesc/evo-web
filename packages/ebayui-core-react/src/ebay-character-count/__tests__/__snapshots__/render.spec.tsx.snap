@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<EbayCharacterCount /> rendering renders customText story correctly 1`] = `
+exports[`<EbayCharacterCount /> rendering > renders customText story correctly 1`] = `
 <div>
   <span
     class="field"
@@ -50,7 +50,7 @@ exports[`<EbayCharacterCount /> rendering renders customText story correctly 1`]
 </div>
 `;
 
-exports[`<EbayCharacterCount /> rendering renders default story correctly 1`] = `
+exports[`<EbayCharacterCount /> rendering > renders default story correctly 1`] = `
 <div>
   <span>
     11
@@ -65,7 +65,7 @@ exports[`<EbayCharacterCount /> rendering renders default story correctly 1`] = 
 </div>
 `;
 
-exports[`<EbayCharacterCount /> rendering renders inField story correctly 1`] = `
+exports[`<EbayCharacterCount /> rendering > renders inField story correctly 1`] = `
 <div>
   <span
     class="field"

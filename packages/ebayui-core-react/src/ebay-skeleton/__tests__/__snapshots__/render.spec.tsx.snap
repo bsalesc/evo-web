@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeleton color blue component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeleton color blue component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton skeleton--blue"
@@ -13,7 +13,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeleton color 
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeleton color green component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeleton color green component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton skeleton--green"
@@ -26,7 +26,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeleton color 
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeleton color purple component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeleton color purple component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton skeleton--purple"
@@ -39,7 +39,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeleton color 
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeleton component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeleton component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -52,7 +52,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeleton compon
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeleton composite component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeleton composite component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -74,7 +74,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeleton compos
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeleton tile component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeleton tile component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -91,7 +91,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeleton tile c
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeletonAvatar component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeletonAvatar component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -103,7 +103,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeletonAvatar 
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeletonAvatar with "as" prop component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeletonAvatar with "as" prop component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -115,7 +115,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeletonAvatar 
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeletonButton component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeletonButton component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -128,7 +128,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeletonButton 
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeletonButton with "as" prop component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeletonButton with "as" prop component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -141,7 +141,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeletonButton 
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeletonButton with size prop large component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeletonButton with size prop large component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -154,7 +154,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeletonButton 
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeletonButton with size prop small component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeletonButton with size prop small component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -167,7 +167,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeletonButton 
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeletonImage component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeletonImage component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -180,7 +180,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeletonImage c
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeletonImage with "as" prop component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeletonImage with "as" prop component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -193,7 +193,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeletonImage w
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeletonText component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeletonText component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -206,7 +206,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeletonText co
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeletonText with "as" prop component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeletonText with "as" prop component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -219,7 +219,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeletonText wi
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeletonText with multiline prop component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeletonText with multiline prop component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -232,7 +232,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeletonText wi
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeletonText with size prop component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeletonText with size prop component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -245,7 +245,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeletonText wi
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeletonTextBox component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeletonTextBox component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"
@@ -258,7 +258,7 @@ exports[`Render <EbaySkeleton /> component should render the EbaySkeletonTextBox
 </div>
 `;
 
-exports[`Render <EbaySkeleton /> component should render the EbaySkeletonTextBox with "as" prop component 1`] = `
+exports[`Render <EbaySkeleton /> component > should render the EbaySkeletonTextBox with "as" prop component 1`] = `
 <div
   aria-label="Loading..."
   class="skeleton"

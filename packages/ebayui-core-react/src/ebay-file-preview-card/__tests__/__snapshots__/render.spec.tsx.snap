@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<EbayFilePreviewCard> renders as span element 1`] = `
+exports[`<EbayFilePreviewCard> > renders as span element 1`] = `
 <DocumentFragment>
   <span
     class="file-preview-card"
@@ -44,7 +44,7 @@ exports[`<EbayFilePreviewCard> renders as span element 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayFilePreviewCard> renders with a href 1`] = `
+exports[`<EbayFilePreviewCard> > renders with a href 1`] = `
 <DocumentFragment>
   <div
     class="file-preview-card"
@@ -92,7 +92,7 @@ exports[`<EbayFilePreviewCard> renders with a href 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayFilePreviewCard> renders with action button 1`] = `
+exports[`<EbayFilePreviewCard> > renders with action button 1`] = `
 <DocumentFragment>
   <div
     class="file-preview-card"
@@ -126,7 +126,7 @@ exports[`<EbayFilePreviewCard> renders with action button 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayFilePreviewCard> renders with document 1`] = `
+exports[`<EbayFilePreviewCard> > renders with document 1`] = `
 <DocumentFragment>
   <div
     class="file-preview-card"
@@ -166,7 +166,7 @@ exports[`<EbayFilePreviewCard> renders with document 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayFilePreviewCard> renders with image, delete button and footer 1`] = `
+exports[`<EbayFilePreviewCard> > renders with image, delete button and footer 1`] = `
 <DocumentFragment>
   <div
     class="file-preview-card"
@@ -210,7 +210,7 @@ exports[`<EbayFilePreviewCard> renders with image, delete button and footer 1`] 
 </DocumentFragment>
 `;
 
-exports[`<EbayFilePreviewCard> renders with multi action button 1`] = `
+exports[`<EbayFilePreviewCard> > renders with multi action button 1`] = `
 <DocumentFragment>
   <div
     class="file-preview-card"
@@ -250,7 +250,7 @@ exports[`<EbayFilePreviewCard> renders with multi action button 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayFilePreviewCard> renders with no action button 1`] = `
+exports[`<EbayFilePreviewCard> > renders with no action button 1`] = `
 <DocumentFragment>
   <div
     class="file-preview-card"
@@ -278,7 +278,7 @@ exports[`<EbayFilePreviewCard> renders with no action button 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayFilePreviewCard> renders with see more button 1`] = `
+exports[`<EbayFilePreviewCard> > renders with see more button 1`] = `
 <DocumentFragment>
   <div
     class="file-preview-card"
@@ -305,7 +305,7 @@ exports[`<EbayFilePreviewCard> renders with see more button 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayFilePreviewCard> renders with status uploading 1`] = `
+exports[`<EbayFilePreviewCard> > renders with status uploading 1`] = `
 <DocumentFragment>
   <div
     class="file-preview-card test-class"
@@ -350,7 +350,7 @@ exports[`<EbayFilePreviewCard> renders with status uploading 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayFilePreviewCard> renders with video 1`] = `
+exports[`<EbayFilePreviewCard> > renders with video 1`] = `
 <DocumentFragment>
   <div
     class="file-preview-card"
@@ -390,7 +390,7 @@ exports[`<EbayFilePreviewCard> renders with video 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayFilePreviewCard> should render with mock file 1`] = `
+exports[`<EbayFilePreviewCard> > should render with mock file 1`] = `
 <DocumentFragment>
   <div
     class="file-preview-card"
@@ -444,7 +444,7 @@ exports[`<EbayFilePreviewCard> should render with mock file 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayFilePreviewCard> should render with video 1`] = `
+exports[`<EbayFilePreviewCard> > should render with video 1`] = `
 <DocumentFragment>
   <div
     class="file-preview-card"

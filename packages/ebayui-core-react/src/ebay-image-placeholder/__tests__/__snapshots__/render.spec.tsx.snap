@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<EbayImagePlaceholder /> rendering renders default image placeholder 1`] = `
+exports[`<EbayImagePlaceholder /> rendering > renders default image placeholder 1`] = `
 <div>
   <svg
     aria-hidden="true"
@@ -15,7 +15,7 @@ exports[`<EbayImagePlaceholder /> rendering renders default image placeholder 1`
 </div>
 `;
 
-exports[`<EbayImagePlaceholder /> rendering renders resized image placeholder 1`] = `
+exports[`<EbayImagePlaceholder /> rendering > renders resized image placeholder 1`] = `
 <div>
   <svg
     aria-hidden="true"

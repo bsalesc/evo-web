@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`star-rating-select renders basic fieldset 1`] = `
+exports[`star-rating-select > renders basic fieldset 1`] = `
 <DocumentFragment>
   <fieldset>
     <legend>
@@ -139,7 +139,7 @@ exports[`star-rating-select renders basic fieldset 1`] = `
 </DocumentFragment>
 `;
 
-exports[`star-rating-select renders defaults 1`] = `
+exports[`star-rating-select > renders defaults 1`] = `
 <DocumentFragment>
   <div
     class="star-rating-select"
@@ -268,7 +268,7 @@ exports[`star-rating-select renders defaults 1`] = `
 </DocumentFragment>
 `;
 
-exports[`star-rating-select renders with 0 selected 1`] = `
+exports[`star-rating-select > renders with 0 selected 1`] = `
 <DocumentFragment>
   <div
     aria-label="Rate product"
@@ -404,7 +404,7 @@ exports[`star-rating-select renders with 0 selected 1`] = `
 </DocumentFragment>
 `;
 
-exports[`star-rating-select renders with 2 selected 1`] = `
+exports[`star-rating-select > renders with 2 selected 1`] = `
 <DocumentFragment>
   <div
     aria-label="Rate product"
@@ -541,7 +541,7 @@ exports[`star-rating-select renders with 2 selected 1`] = `
 </DocumentFragment>
 `;
 
-exports[`star-rating-select renders with 5 selected 1`] = `
+exports[`star-rating-select > renders with 5 selected 1`] = `
 <DocumentFragment>
   <div
     aria-label="Rate product"

@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`EbayCCD renders ccd with charger included 1`] = `
+exports[`EbayCCD > renders ccd with charger included 1`] = `
 <div>
   <div
     aria-label="Charger included."
@@ -21,7 +21,7 @@ exports[`EbayCCD renders ccd with charger included 1`] = `
 </div>
 `;
 
-exports[`EbayCCD renders ccd with charger included and usbpd 1`] = `
+exports[`EbayCCD > renders ccd with charger included and usbpd 1`] = `
 <div>
   <div
     aria-label="Charger included."
@@ -42,7 +42,7 @@ exports[`EbayCCD renders ccd with charger included and usbpd 1`] = `
 </div>
 `;
 
-exports[`EbayCCD renders ccd with charger not included 1`] = `
+exports[`EbayCCD > renders ccd with charger not included 1`] = `
 <div>
   <div
     aria-label="Charger not included."
@@ -63,7 +63,7 @@ exports[`EbayCCD renders ccd with charger not included 1`] = `
 </div>
 `;
 
-exports[`EbayCCD renders ccd with custom a11y 1`] = `
+exports[`EbayCCD > renders ccd with custom a11y 1`] = `
 <div>
   <div
     a11ytext="custom text"
@@ -85,7 +85,7 @@ exports[`EbayCCD renders ccd with custom a11y 1`] = `
 </div>
 `;
 
-exports[`EbayCCD renders ccd with usbpd included 1`] = `
+exports[`EbayCCD > renders ccd with usbpd included 1`] = `
 <div>
   <div
     aria-label=""
@@ -95,7 +95,7 @@ exports[`EbayCCD renders ccd with usbpd included 1`] = `
 </div>
 `;
 
-exports[`EbayCCD renders default ccd 1`] = `
+exports[`EbayCCD > renders default ccd 1`] = `
 <div>
   <div
     aria-label=""
@@ -105,7 +105,7 @@ exports[`EbayCCD renders default ccd 1`] = `
 </div>
 `;
 
-exports[`EbayCCD renders with min and max 1`] = `
+exports[`EbayCCD > renders with min and max 1`] = `
 <div>
   <div
     aria-label="1 - 10 watts."
@@ -142,7 +142,7 @@ exports[`EbayCCD renders with min and max 1`] = `
 </div>
 `;
 
-exports[`EbayCCD renders with min and max but with charger included 1`] = `
+exports[`EbayCCD > renders with min and max but with charger included 1`] = `
 <div>
   <div
     aria-label="Charger included. 1 - 10 watts."
@@ -189,7 +189,7 @@ exports[`EbayCCD renders with min and max but with charger included 1`] = `
 </div>
 `;
 
-exports[`EbayCCD renders with min and max but with no charger included 1`] = `
+exports[`EbayCCD > renders with min and max but with no charger included 1`] = `
 <div>
   <div
     aria-label="Charger not included. 1 - 10 watts."

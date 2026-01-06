@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<EbayItemTileGroup> renders component in gallery layout 1`] = `
+exports[`<EbayItemTileGroup> > renders component in gallery layout 1`] = `
 <DocumentFragment>
   <div
     class="layout-grid item-tile-group"
@@ -257,7 +257,7 @@ exports[`<EbayItemTileGroup> renders component in gallery layout 1`] = `
 </DocumentFragment>
 `;
 
-exports[`<EbayItemTileGroup> renders component in list layout 1`] = `
+exports[`<EbayItemTileGroup> > renders component in list layout 1`] = `
 <DocumentFragment>
   <div
     class="layout-grid item-tile-group item-tile-group--list-view"

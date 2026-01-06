@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ebay-fake-menu-button rendering renders borderless story correctly 1`] = `
+exports[`ebay-fake-menu-button rendering > renders borderless story correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--12"
@@ -13,7 +13,7 @@ exports[`ebay-fake-menu-button rendering renders borderless story correctly 1`] 
 </svg>
 `;
 
-exports[`ebay-fake-menu-button rendering renders default story correctly 1`] = `
+exports[`ebay-fake-menu-button rendering > renders default story correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--12"
@@ -26,7 +26,7 @@ exports[`ebay-fake-menu-button rendering renders default story correctly 1`] = `
 </svg>
 `;
 
-exports[`ebay-fake-menu-button rendering renders disabled story correctly 1`] = `
+exports[`ebay-fake-menu-button rendering > renders disabled story correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--12"
@@ -39,7 +39,7 @@ exports[`ebay-fake-menu-button rendering renders disabled story correctly 1`] = 
 </svg>
 `;
 
-exports[`ebay-fake-menu-button rendering renders expanded story correctly 1`] = `
+exports[`ebay-fake-menu-button rendering > renders expanded story correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--16"
@@ -52,7 +52,7 @@ exports[`ebay-fake-menu-button rendering renders expanded story correctly 1`] = 
 </svg>
 `;
 
-exports[`ebay-fake-menu-button rendering renders variants story correctly 1`] = `
+exports[`ebay-fake-menu-button rendering > renders variants story correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--24"
@@ -65,7 +65,7 @@ exports[`ebay-fake-menu-button rendering renders variants story correctly 1`] = 
 </svg>
 `;
 
-exports[`ebay-fake-menu-button rendering renders with icon story correctly 1`] = `
+exports[`ebay-fake-menu-button rendering > renders with icon story correctly 1`] = `
 <svg
   aria-hidden="true"
   class="icon icon--16"
